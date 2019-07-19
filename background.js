@@ -10,7 +10,12 @@ class Background {
             this.gameHeight = h
 
             this.image = new Image()
-            this.image.src = "/images/habitacion 1.jpg"
-        }
+            this.image.src = "images/habitacion2.jpg"
 
+            this.posX = 0
+            this.posY = 0 
+        }
+        draw() {
+            this.ctx.drawImage(this.image, this.posX, this.posY, this.gameWidth, this.gameHeight)
 }
+  }

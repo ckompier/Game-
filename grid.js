@@ -1,5 +1,5 @@
 class Mapfog {
-    constructor(ctx, width, height,map){
+    constructor(ctx, width, height){
     
         this.ctx = ctx,
         this.width = width,
@@ -19,7 +19,7 @@ class Mapfog {
  [ 0,0,0,0,0,0,0,0,0,0,0,]
 
 ]
-
+console.log(this.map)
 
 }
 
