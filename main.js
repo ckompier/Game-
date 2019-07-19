@@ -154,7 +154,7 @@ gameOver: function() {
     clearInterval(this.interval)
     // this.gif = new gif ()
     // this.gif.src = "https://giphy.com/gifs/3oz8xsuGvBn03H1boY/html5"
-    this.ctx.font = "bold 400px ubuntu"
+    this.ctx.font = "bold 300px ubuntu"
     this.ctx.fillStyle = "black"
     this.ctx.textAlign = "center"
     this.ctx.fillText("You Loose", window.innerWidth /2, (window.innerHeight/2))
